@@ -1,0 +1,50 @@
+/* Your CSS styles here */
+
+/* Style for the box containing the title */
+.title-box {
+    background-color: #FF0000; /* background color for Carnivores */
+    padding: 10px 20px; /* Padding around the text */
+    text-align: center; /* Center-align text */
+}
+
+/* Style for the title text */
+.page-title {
+    font-family: 'Comic Sans MS', cursive; /* Zoo-themed font */
+    color: white; /* Text color */
+    font-size: 36px; /* Font size */
+    font-weight: bold; /* Make the text bold */
+}
+
+/* Style for the matrix of pictures */
+.picture-matrix {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 10px; /* Add some spacing on both sides */
+}
+
+.animal-card {
+    width: calc(25% - 20px); /* 25% width minus margins */
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #003366; /* Dark blue border */
+    border-radius: 10px; /* Rounded corners */
+    transition: border-color 0.3s, transform 0.3s; /* Smooth transition for border color and transform */
+}
+
+.animal-card:hover {
+    border-color: #FFA500; /* Orange border color on hover */
+    transform: scale(1.1); /* Scale up the card on hover */
+}
+
+.animal-image {
+    max-width: 100%;
+}
+
+/* Style for the links to animal profiles */
+.animal-link {
+    font-family: 'Comic Sans MS', cursive; /* Zoo-themed font */
+    color: #003366; /* Dark blue font color */
+    font-size: 18px; /* Font size */
+    text-decoration: none; /* Remove underline */
+}

@@ -1,0 +1,62 @@
+/* Style for the colorful rectangular box */
+.title-box {
+    background-color: #e4993c;
+    padding: 10px 20px;
+    border: 2px solid #20195a;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Style for the font related to the zoo theme */
+.zoo-font {
+    font-family: 'Comic Sans MS', cursive;
+    color: #003366;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Style for the sections */
+.zoo-section {
+    padding: 50px;
+    text-align: center;
+    height: 20vh;
+}
+
+/* Updated styles for the boxes */
+.pattern-box {
+    border: 2px solid #003366;
+    border-radius: 10px;
+    padding: 80px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Style for the clickable boxes */
+.clickable-box {
+    cursor: pointer;
+}
+
+/* Style for the links to other sections */
+.section-link {
+    font-family: 'Comic Sans MS', cursive;
+    color: #003366;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* Specific styles for the boxes */
+.herbivores-box {
+    background-color: #4CAF50;
+}
+
+.carnivores-box {
+    background-color: #FF0000;
+}
+
+.omnivores-box {
+    background-color: #FF1199;
+}
